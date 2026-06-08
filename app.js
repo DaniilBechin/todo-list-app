@@ -21,7 +21,7 @@ function updateProgress() {
     document.head.appendChild(styleTag);
   }
   styleTag.textContent = '.progress-bar::after { width: ' + percent + '%; }';
-  text.textContent = percent + '% выполнено (' + done + '/' + total + ')';
+  text.textContent = percent + '% completed (' + done + '/' + total + ')';
 }
 
 document.addEventListener('click', function(e) {
