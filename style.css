@@ -1,4 +1,7 @@
 .progress-container {
+  position: sticky;
+  top: 0;
+  z-index: 10;
   max-width: 550px;
   margin: 10px auto;
   padding: 10px 15px;
@@ -34,7 +37,7 @@
   color: #777;
   white-space: nowrap;
   flex-shrink: 0;
-  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 /* Кнопка переключения темы */
 .theme-toggle {
@@ -162,4 +165,27 @@ body.dark .theme-toggle {
 
 body.dark .theme-toggle:hover {
   background: #444;
+}
+
+/* Drag and drop */
+.todo-list li {
+  cursor: grab;
+}
+
+.todo-list li:active {
+  cursor: grabbing;
+}
+
+.todo-list li[draggable="true"] {
+  user-select: none;
+}
+
+.todo-list li {
+  cursor: grab;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.todo-list li:active {
+  cursor: grabbing;
 }
