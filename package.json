@@ -1,0 +1,12 @@
+{
+  "name": "todo-list-app",
+  "version": "1.0.0",
+  "description": "Todo List App with progress bar, dark theme and drag-and-drop",
+  "main": "index.html",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
+}
