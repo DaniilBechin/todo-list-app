@@ -32,7 +32,13 @@
       hash: '#/', // the "route" to display
       // editing: 2 // edit the 3rd todo list item (which has id == 2)
     };
-    mount(model, update, view, 'app', subscriptions);
+mount(model, update, function(m, s) {
+  var result = view(m, s);
+  setTimeout(function() {
+    updateProgress();
+  }, 100);
+  return result;
+}, 'app', subscriptions);
   </script>
   <!-- Below this point is all related to the Tests for the App -->
   <div id="test-app"></div> <!-- Create a test-app div to mount the app -->
