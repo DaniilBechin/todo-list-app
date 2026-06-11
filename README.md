@@ -7,6 +7,7 @@ A fully functional Todo List application built with vanilla JavaScript. Features
 - **Live Demo:** https://daniilbechin.github.io/todo-list-app/
 - **GitHub Repository:** https://github.com/DaniilBechin/todo-list-app
 - **Code Quality:** https://www.codefactor.io/repository/github/daniilbechin/todo-list-app
+- **Demo:** https://drive.google.com/file/d/1gJ5WO5ZSGrr37nji7dK12PWUYlsY9VQL/view?usp=sharing
 
 ## Features
 
@@ -24,13 +25,13 @@ A fully functional Todo List application built with vanilla JavaScript. Features
 - Elmish architecture (custom mini-framework)
 - GitHub Pages for deployment
 
-## Getting Started
+# Getting Started
 
-# Clone the repository
+## Clone the repository
 git clone https://github.com/DaniilBechin/todo-list-app.git
 
-# Navigate into the directory
+## Navigate into the directory
 cd todo-list-app
 
-# Open index.html in your browser or use Live Server
+## Open index.html in your browser or use Live Server
 npx live-server
